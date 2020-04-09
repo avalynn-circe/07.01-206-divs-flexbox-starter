@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,33 +97,38 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #f06d06;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 16px;
   height: 100%;
 }
 
 .wrapper {
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   font-weight: 700;
 }
 
 .div-1, .div-2, .div-3 {
-  width: 30%;
+  width: 25%;
+  padding: 0 15px;
   display:flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background-color: transparent;
+  height: auto;
+}
+
+.div-1, .div-2 {
+  border-right: solid 1px pink;
 }
 
 
